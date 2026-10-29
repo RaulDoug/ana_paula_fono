@@ -16,13 +16,18 @@ export const CLINIC_INFO = {
     landmark: "Em frente à VDM",
     full: "Rua do Rosário, 159, Centro (Em frente à VDM), Bom Despacho - MG",
   },
+  coordinates: {
+    lat: -19.741961,
+    lng: -45.255228,
+  },
   hours: "Segunda a Sexta-feira: 08:00 às 18:00 (Atendimentos com hora marcada)",
   instagram: {
     handle: "@fono_anapaulaazevedo",
     url: "https://www.instagram.com/fono_anapaulaazevedo/",
   },
-  googleMapsUrl: "https://www.google.com/maps/dir/?api=1&destination=Rua+do+Rosario,+159,+Centro,+Bom+Despacho+-+MG",
-  wazeUrl: "https://waze.com/ul?q=Rua%20do%20Rosario%20159%20Bom%20Despacho",
+  googleMapsUrl: "https://www.google.com/maps?q=-19.741961,-45.255228",
+  googleMapsRouteUrl: "https://www.google.com/maps/dir/?api=1&destination=-19.741961,-45.255228",
+  wazeUrl: "https://waze.com/ul?ll=-19.741961,-45.255228&navigate=yes",
 } as const;
 
 export function getWhatsAppUrl(message?: string): string {

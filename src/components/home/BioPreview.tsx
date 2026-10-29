@@ -4,7 +4,6 @@ import { Award, HeartHandshake, ArrowRight, MapPin } from 'lucide-react';
 import { CLINIC_INFO, getWhatsAppUrl } from '../../data/clinicInfo';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
-import doctorPhoto from '../../assets/images/foto_ana_paula.jpg';
 
 export const BioPreview: React.FC = () => {
   return (
@@ -16,11 +15,18 @@ export const BioPreview: React.FC = () => {
             <div className="lg:col-span-5 flex justify-center">
               <div className="relative w-full max-w-sm">
                 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-md bg-[#F4F1EA] border border-[#E2DDD5]">
-                  <img
-                    src={doctorPhoto}
-                    alt={CLINIC_INFO.doctorName}
-                    className="w-full h-full object-cover object-top"
-                  />
+                  <picture>
+                    <source srcSet="/images/foto_ana_paula.webp" type="image/webp" />
+                    <img
+                      src="/images/foto_ana_paula.jpg"
+                      alt={CLINIC_INFO.doctorName}
+                      width={800}
+                      height={1000}
+                      loading="lazy"
+                      decoding="async"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </picture>
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0A3E39]/80 via-transparent to-transparent" />
                   <div className="absolute bottom-4 left-4 right-4 text-white">
                     <span className="font-serif text-lg font-bold block">

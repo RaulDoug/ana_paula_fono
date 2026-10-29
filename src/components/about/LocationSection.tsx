@@ -66,7 +66,7 @@ export const LocationSection: React.FC = () => {
               <Button
                 variant="primary"
                 size="md"
-                href={CLINIC_INFO.googleMapsUrl}
+                href={CLINIC_INFO.googleMapsRouteUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 icon={<Navigation className="w-4 h-4 text-[#10B981]" />}
@@ -96,7 +96,7 @@ export const LocationSection: React.FC = () => {
             <div className="relative w-full h-full min-h-[340px] flex-1">
               <iframe
                 title="Mapa de Localização da Azevedo Fonoaudiologia"
-                src="https://maps.google.com/maps?q=Rua%20do%20Rosario%2C%20159%2C%20Centro%2C%20Bom%20Despacho%20-%20MG&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                src={`https://maps.google.com/maps?q=${CLINIC_INFO.coordinates.lat},${CLINIC_INFO.coordinates.lng}&t=&z=17&ie=UTF8&iwloc=&output=embed`}
                 className="w-full h-full border-0 absolute inset-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

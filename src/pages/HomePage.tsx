@@ -31,8 +31,8 @@ export const HomePage: React.FC = () => {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -19.7358,
-      "longitude": -45.2536
+      "latitude": CLINIC_INFO.coordinates.lat,
+      "longitude": CLINIC_INFO.coordinates.lng
     },
     "openingHoursSpecification": [
       {

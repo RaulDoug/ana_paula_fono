@@ -4,7 +4,6 @@ import { ShieldCheck, MessageCircle, ArrowDown, MapPin, Award } from 'lucide-rea
 import { CLINIC_INFO, getWhatsAppUrl } from '../../data/clinicInfo';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
-import doctorPhoto from '../../assets/images/foto_ana_paula.jpg';
 
 export const HeroSection: React.FC = () => {
   return (
@@ -92,11 +91,18 @@ export const HeroSection: React.FC = () => {
               {/* Main Card */}
               <div className="relative bg-white rounded-3xl p-3 shadow-[0_16px_40px_rgba(10,62,57,0.12)] border border-[#E2DDD5]/80 overflow-hidden">
                 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-[#F4F1EA]">
-                  <img
-                    src={doctorPhoto}
-                    alt={`${CLINIC_INFO.doctorName} - Fonoaudióloga`}
-                    className="w-full h-full object-cover object-top hover:scale-102 transition-transform duration-700"
-                  />
+                  <picture>
+                    <source srcSet="/images/foto_ana_paula.webp" type="image/webp" />
+                    <img
+                      src="/images/foto_ana_paula.jpg"
+                      alt={`${CLINIC_INFO.doctorName} - Fonoaudióloga`}
+                      width={800}
+                      height={1000}
+                      fetchPriority="high"
+                      decoding="async"
+                      className="w-full h-full object-cover object-top hover:scale-102 transition-transform duration-700"
+                    />
+                  </picture>
 
                   {/* Gradient bottom overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0A3E39]/80 via-transparent to-transparent" />

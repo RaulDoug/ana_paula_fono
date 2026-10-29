@@ -4,7 +4,6 @@ import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
 import { CLINIC_INFO, getWhatsAppUrl } from '../../data/clinicInfo';
-import doctorPhoto from '../../assets/images/foto_ana_paula.jpg';
 
 export const DoctorProfile: React.FC = () => {
   const credentials = [
@@ -22,11 +21,18 @@ export const DoctorProfile: React.FC = () => {
           <div className="relative w-full max-w-md">
             <div className="absolute -inset-2.5 bg-gradient-to-tr from-[#0A3E39]/15 to-[#10B981]/15 rounded-3xl -rotate-1" />
             <div className="relative rounded-2xl overflow-hidden shadow-lg bg-white border border-[#E2DDD5]/80">
-              <img
-                src={doctorPhoto}
-                alt={CLINIC_INFO.doctorName}
-                className="w-full aspect-[4/5] object-cover object-top"
-              />
+              <picture>
+                <source srcSet="/images/foto_ana_paula.webp" type="image/webp" />
+                <img
+                  src="/images/foto_ana_paula.jpg"
+                  alt={CLINIC_INFO.doctorName}
+                  width={800}
+                  height={1000}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full aspect-[4/5] object-cover object-top"
+                />
+              </picture>
               <div className="p-4 bg-white border-t border-[#E2DDD5]/70 flex items-center justify-between">
                 <div>
                   <h3 className="font-serif text-lg font-bold text-[#0A3E39]">

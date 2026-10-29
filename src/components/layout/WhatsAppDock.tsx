@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageCircle, X, Send } from 'lucide-react';
 import { CLINIC_INFO, getWhatsAppUrl } from '../../data/clinicInfo';
-import doctorPhoto from '../../assets/images/foto_ana_paula.jpg';
 
 export const WhatsAppDock: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,8 +23,12 @@ export const WhatsAppDock: React.FC = () => {
               <div className="flex items-center gap-3">
                 <div className="relative">
                   <img
-                    src={doctorPhoto}
+                    src="/images/foto_ana_paula_thumb.webp"
                     alt={CLINIC_INFO.doctorName}
+                    width={44}
+                    height={44}
+                    loading="lazy"
+                    decoding="async"
                     className="w-11 h-11 rounded-full object-cover border-2 border-white/60 shadow-sm"
                   />
                   <span className="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-[#10B981] ring-2 ring-[#0A3E39]" />

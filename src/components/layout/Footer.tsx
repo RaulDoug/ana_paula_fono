@@ -85,14 +85,25 @@ export const Footer: React.FC = () => {
             </h4>
 
             <div className="flex flex-col gap-3 text-sm text-[#E8F1EE]/80">
-              <div className="flex items-start gap-2.5">
-                <MapPin className="w-4 h-4 text-[#10B981] shrink-0 mt-0.5" />
+              <a
+                href={CLINIC_INFO.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-start gap-2.5 hover:text-white transition-colors cursor-pointer"
+                title="Abrir endereço no Google Maps"
+              >
+                <MapPin className="w-4 h-4 text-[#10B981] group-hover:text-[#34D399] shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
                 <div>
-                  <span className="text-white font-medium">{CLINIC_INFO.address.street}</span>
+                  <span className="text-white font-medium group-hover:underline flex items-center gap-1.5">
+                    {CLINIC_INFO.address.street}
+                    <ArrowUpRight className="w-3.5 h-3.5 text-[#10B981] opacity-70 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+                  </span>
                   <span className="block text-xs text-[#10B981] font-semibold">{CLINIC_INFO.address.landmark}</span>
-                  <span className="text-xs text-[#E8F1EE]/70">{CLINIC_INFO.address.city} - {CLINIC_INFO.address.state} • CEP {CLINIC_INFO.address.cep}</span>
+                  <span className="text-xs text-[#E8F1EE]/70 group-hover:text-[#E8F1EE]/90 transition-colors">
+                    {CLINIC_INFO.address.city} - {CLINIC_INFO.address.state} • CEP {CLINIC_INFO.address.cep}
+                  </span>
                 </div>
-              </div>
+              </a>
 
               <div className="flex items-center gap-2.5">
                 <Clock className="w-4 h-4 text-[#10B981] shrink-0" />

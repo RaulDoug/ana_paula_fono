@@ -55,7 +55,7 @@ export const DysphagiaChecklist: React.FC = () => {
 
   const getCustomWhatsAppLink = () => {
     if (selectedIds.length === 0) {
-      const msg = "Olá, Dra. Ana Paula! Gostaria de tirar dúvidas sobre o atendimento fonoaudiológico domiciliar para um familiar idoso.";
+      const msg = "Olá, Ana Paula! Gostaria de tirar dúvidas sobre o atendimento fonoaudiológico domiciliar para um familiar idoso.";
       return `https://wa.me/${CLINIC_INFO.phoneRaw}?text=${encodeURIComponent(msg)}`;
     }
 
@@ -64,7 +64,7 @@ export const DysphagiaChecklist: React.FC = () => {
       .map((s) => `- ${s.label}`)
       .join('\n');
 
-    const msg = `Olá, Dra. Ana Paula! Fiz o teste no site e notei que meu familiar apresenta os seguintes sinais:\n${selectedLabels}\n\nGostaria de entender como funciona a avaliação domiciliar em Bom Despacho.`;
+    const msg = `Olá, Ana Paula! Fiz o teste no site e notei que meu familiar apresenta os seguintes sinais:\n${selectedLabels}\n\nGostaria de entender como funciona a avaliação domiciliar em Bom Despacho.`;
     return `https://wa.me/${CLINIC_INFO.phoneRaw}?text=${encodeURIComponent(msg)}`;
   };
 
@@ -135,7 +135,7 @@ export const DysphagiaChecklist: React.FC = () => {
                 </span>
                 <span className="text-xs text-[#596567]">
                   {selectedIds.length > 0
-                    ? 'Clique abaixo para enviar os sinais direto para a Dra. Ana Paula'
+                    ? 'Clique abaixo para enviar os sinais direto para Ana Paula'
                     : 'Tire dúvidas preventivas diretamente com a especialista'}
                 </span>
               </div>

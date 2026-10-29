@@ -34,8 +34,8 @@ export const AboutPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Sobre a Dra. Ana Paula Azevedo | Fonoaudiologia no Centro de Bom Despacho"
-        description="Conheça a Dra. Ana Paula Azevedo, a infraestrutura acessível no Centro de Bom Despacho (em frente à VDM) e solicite sua rota GPS ou atendimento domiciliar."
+        title="Sobre Ana Paula Azevedo | Fonoaudiologia no Centro de Bom Despacho"
+        description="Conheça Ana Paula Azevedo, a infraestrutura do consultório no Centro de Bom Despacho (em frente à VDM) e solicite sua rota GPS ou atendimento domiciliar."
         canonical="https://azevedofonoaudiologia.com.br/sobre"
         jsonLd={jsonLd}
       />

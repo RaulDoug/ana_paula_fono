@@ -16,7 +16,7 @@ export const LocationSection: React.FC = () => {
           Como Chegar ao Nosso Consultório
         </h2>
         <p className="text-sm sm:text-base text-[#596567] max-w-xl">
-          Fácil acesso no Centro de Bom Despacho, com facilidade para embarque e desembarque seguro de pacientes bem em frente à entrada.
+          Localizado no Centro de Bom Despacho, com ponto de referência conhecido em frente à VDM para sua comodidade.
         </p>
       </div>
 
@@ -106,7 +106,7 @@ export const LocationSection: React.FC = () => {
               <span>Rua do Rosário, 159 — Centro</span>
               <span className="font-semibold text-[#0A3E39] flex items-center gap-1">
                 <ShieldCheck className="w-3.5 h-3.5 text-[#10B981]" />
-                Fácil desembarque
+                Em frente à VDM
               </span>
             </div>
           </Card>

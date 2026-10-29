@@ -51,7 +51,7 @@ export const BioPreview: React.FC = () => {
               </h2>
 
               <p className="text-sm sm:text-base text-[#596567] leading-relaxed">
-                À frente da clínica está a <strong>Dra. Ana Paula Azevedo</strong>, fonoaudióloga dedicada a transformar o dia a dia de seus pacientes através do cuidado empático e da técnica refinada. Cada plano terapêutico respeita o ritmo, a história e as reais necessidades de quem nos procura, seja no consultório térreo acessível no Centro ou no aconchego de sua residência.
+                À frente da clínica está <strong>Ana Paula Azevedo</strong>, fonoaudióloga dedicada a transformar o dia a dia de seus pacientes através do cuidado empático e da técnica refinada. Cada plano terapêutico respeita o ritmo, a história e as reais necessidades de quem nos procura, seja no consultório no Centro ou no aconchego de sua residência.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-2 w-full">
@@ -70,8 +70,8 @@ export const BioPreview: React.FC = () => {
                     <MapPin className="w-5 h-5 text-[#10B981]" />
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-xs font-bold text-[#0A3E39]">Espaço Acessível</span>
-                    <span className="text-[11px] text-[#596567]">Térreo e em frente à VDM</span>
+                    <span className="text-xs font-bold text-[#0A3E39]">Localização Central</span>
+                    <span className="text-[11px] text-[#596567]">No Centro, em frente à VDM</span>
                   </div>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export const BioPreview: React.FC = () => {
                 <Button
                   variant="emerald"
                   size="md"
-                  href={getWhatsAppUrl("Olá, Dra. Ana Paula! Gostaria de conversar sobre um atendimento fonoaudiológico.")}
+                  href={getWhatsAppUrl("Olá, Ana Paula! Gostaria de conversar sobre um atendimento fonoaudiológico.")}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

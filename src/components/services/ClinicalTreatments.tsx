@@ -1,5 +1,5 @@
 import React from 'react';
-import { Baby, Smile, Mic, CheckCircle2, MessageCircle } from 'lucide-react';
+import { Baby, Smile, Brain, CheckCircle2, MessageCircle } from 'lucide-react';
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
@@ -18,7 +18,7 @@ export const ClinicalTreatments: React.FC = () => {
         "Apoio no desenvolvimento da leitura e alfabetização",
         "Mediação na comunicação social e acolhimento no TEA",
       ],
-      ctaMessage: "Olá, Dra. Ana Paula! Gostaria de agendar uma avaliação infantil para meu filho(a).",
+      ctaMessage: "Olá, Ana Paula! Gostaria de agendar uma avaliação infantil para meu filho(a).",
     },
     {
       title: "Motricidade Orofacial e Reeducação Muscular",
@@ -31,20 +31,20 @@ export const ClinicalTreatments: React.FC = () => {
         "Equilíbrio das funções de mastigação e deglutição",
         "Suporte direto ao tratamento ortodôntico e pós-cirúrgico",
       ],
-      ctaMessage: "Olá, Dra. Ana Paula! Gostaria de informações sobre o tratamento de motricidade orofacial.",
+      ctaMessage: "Olá, Ana Paula! Gostaria de informações sobre o tratamento de motricidade orofacial.",
     },
     {
-      title: "Aperfeiçoamento Vocal e Reabilitação da Voz",
-      badge: "Saúde Vocal",
-      icon: <Mic className="w-6 h-6 text-[#0A3E39]" />,
-      desc: "Conduta terapêutica para pacientes com queixas de rouquidão persistente, cansaço ao falar ou lesões nas pregas vocais (como nódulos e pólipos), além de aprimoramento técnico para profissionais que usam a voz no trabalho.",
+      title: "Fonoaudiologia para Idosos & Parkinson",
+      badge: "Consultório & Domiciliar",
+      icon: <Brain className="w-6 h-6 text-[#0A3E39]" />,
+      desc: "Reabilitação fonoaudiológica neurológica para idosos e pacientes com Doença de Parkinson ou outras alterações motoras. Atendimento estruturado tanto no consultório no Centro de Bom Despacho quanto em domicílio, focado na voz, na fala e na alimentação segura.",
       benefits: [
-        "Alívio de rouquidão crônica e fadiga laríngea ao falar",
-        "Reabilitação de nódulos (calos) e pólipos vocais",
-        "Condicionamento vocal para professores, oradores e cantores",
-        "Técnicas de respiração diafragmática e projeção sonora",
+        "Terapia vocal para aumento da intensidade e clareza da voz",
+        "Reeducação da deglutição e prevenção de engasgos e aspiração",
+        "Atendimento no consultório ou no aconchego do lar",
+        "Estímulo à comunicação, autonomia e suporte a cuidadores",
       ],
-      ctaMessage: "Olá, Dra. Ana Paula! Gostaria de agendar uma consulta para cuidados com a voz.",
+      ctaMessage: "Olá, Ana Paula! Gostaria de informações sobre o atendimento para idosos e Doença de Parkinson.",
     },
   ];
 
@@ -56,7 +56,7 @@ export const ClinicalTreatments: React.FC = () => {
           Especialidades em Consultório no Centro
         </h2>
         <p className="text-sm sm:text-base text-[#596567] max-w-2xl">
-          Espaço privativo, climatizado e acessível na Rua do Rosário, 159 (em frente à VDM), planejado para conforto de toda a família.
+          Espaço privativo, climatizado e acolhedor na Rua do Rosário, 159 (em frente à VDM), planejado para conforto de toda a família.
         </p>
       </div>
 

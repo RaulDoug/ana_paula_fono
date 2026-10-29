@@ -47,7 +47,7 @@ export const MAIN_PILLARS: ServiceItem[] = [
     ],
     targetAudience: "Adultos e idosos que sentem dificuldade para compreender falas em ambientes ruidosos ou ao assistir TV.",
     ctaText: "Quero testar um aparelho auditivo",
-    ctaMessage: "Olá, Dra. Ana Paula! Gostaria de informações sobre o teste e adaptação de aparelhos auditivos.",
+    ctaMessage: "Olá, Ana Paula! Gostaria de informações sobre o teste e adaptação de aparelhos auditivos.",
   },
   {
     id: "home-care-idosos",
@@ -68,7 +68,7 @@ export const MAIN_PILLARS: ServiceItem[] = [
     ],
     targetAudience: "Famílias e cuidadores de idosos que apresentam tosse ao comer, engasgos ou que estão em reabilitação neurológica.",
     ctaText: "Solicitar atendimento domiciliar",
-    ctaMessage: "Olá, Dra. Ana Paula! Vi que você atende em domicílio e gostaria de saber como funciona a visita para um familiar idoso.",
+    ctaMessage: "Olá, Ana Paula! Vi que você atende em domicílio e gostaria de saber como funciona a visita para um familiar idoso.",
   }
 ];
 
@@ -79,7 +79,7 @@ export const CLINICAL_SERVICES = [
     shortDescription: "Acompanhamento e intervenção precoce em crianças com atraso na aquisição da fala, trocas fonológicas na pronúncia, dificuldades de compreensão e gagueira com abordagens lúdicas.",
     icon: "Baby",
     highlights: ["Estimulação precoce da fala", "Correção de trocas de sons", "Comunicação social e TEA", "Apoio às dificuldades escolares"],
-    ctaMessage: "Olá, Dra. Ana Paula! Gostaria de agendar uma avaliação infantil para meu filho(a).",
+    ctaMessage: "Olá, Ana Paula! Gostaria de agendar uma avaliação infantil para meu filho(a).",
   },
   {
     id: "motricidade",
@@ -87,15 +87,20 @@ export const CLINICAL_SERVICES = [
     shortDescription: "Reeducação e fortalecimento muscular de lábios, bochechas e língua. Indicado para respiração oral crônica, mastigação unilateral, deglutição atípica e apoio ortodôntico.",
     icon: "Smile",
     highlights: ["Adequação da mastigação", "Deglutição atípica (interposição lingual)", "Respiração bucal crônica", "Apoio a tratamentos ortodônticos"],
-    ctaMessage: "Olá, Dra. Ana Paula! Gostaria de informações sobre o tratamento de motricidade orofacial.",
+    ctaMessage: "Olá, Ana Paula! Gostaria de informações sobre o tratamento de motricidade orofacial.",
   },
   {
-    id: "voz",
-    title: "Voz Profissional & Reabilitação",
-    shortDescription: "Conduta terapêutica para rouquidão persistente, cansaço laríngeo ou lesões nas pregas vocais (como nódulos), além de aperfeiçoamento técnico para professores e oradores.",
-    icon: "Mic",
-    highlights: ["Alívio de rouquidão e fadiga", "Tratamento de nódulos vocais (calos)", "Higiene vocal para professores", "Técnicas de projeção e respiração"],
-    ctaMessage: "Olá, Dra. Ana Paula! Gostaria de agendar uma consulta para cuidados com a voz.",
+    id: "parkinson-idosos",
+    title: "Idosos & Doença de Parkinson",
+    shortDescription: "Reabilitação fonoaudiológica neurológica em consultório ou domicílio. Foco no volume e clareza da fala, expressão facial e segurança na deglutição.",
+    icon: "Brain",
+    highlights: [
+      "Atendimento no consultório e domiciliar",
+      "Terapia de voz e fala para Parkinson",
+      "Prevenção de engasgos e deglutição segura",
+      "Preservação da autonomia e comunicação"
+    ],
+    ctaMessage: "Olá, Ana Paula! Gostaria de informações sobre o atendimento para idosos e Doença de Parkinson.",
   }
 ];
 

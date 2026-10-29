@@ -56,12 +56,12 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link to="/sobre" className="hover:text-white transition-colors flex items-center gap-1">
-                  <span>Sobre a Dra. Ana Paula</span>
+                  <span>Sobre Ana Paula</span>
                 </Link>
               </li>
               <li>
                 <Link to="/sobre#consultorio" className="hover:text-white transition-colors flex items-center gap-1">
-                  <span>Consultório no Centro & Acessibilidade</span>
+                  <span>Consultório no Centro & Estrutura</span>
                 </Link>
               </li>
               <li>

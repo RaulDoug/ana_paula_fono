@@ -23,7 +23,7 @@ export const HeroSection: React.FC = () => {
           >
             {/* Trust Pill */}
             <Badge variant="sage" icon={<ShieldCheck className="w-4 h-4 text-[#10B981]" />}>
-              Dra. Ana Paula Azevedo • {CLINIC_INFO.crfa} • Bom Despacho - MG
+              {CLINIC_INFO.doctorName} • {CLINIC_INFO.crfa} • Bom Despacho - MG
             </Badge>
 
             {/* H1 Main Headline */}
@@ -37,7 +37,7 @@ export const HeroSection: React.FC = () => {
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-[#596567] leading-relaxed max-w-xl">
-              Consultório completo e acessível no Centro de Bom Despacho, além de atendimento fonoaudiológico domiciliar exclusivo para idosos no conforto do seu lar.
+              Consultório completo e acolhedor no Centro de Bom Despacho, além de atendimento fonoaudiológico domiciliar exclusivo para idosos no conforto do seu lar.
             </p>
 
             {/* CTAs */}
@@ -45,7 +45,7 @@ export const HeroSection: React.FC = () => {
               <Button
                 variant="emerald"
                 size="lg"
-                href={getWhatsAppUrl("Olá, Dra. Ana Paula! Acessei seu site e gostaria de agendar uma avaliação fonoaudiológica.")}
+                href={getWhatsAppUrl("Olá, Ana Paula! Acessei seu site e gostaria de agendar uma avaliação fonoaudiológica.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 icon={<MessageCircle className="w-5 h-5" />}

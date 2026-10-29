@@ -79,7 +79,7 @@ export const PillarsSection: React.FC = () => {
                 <Button
                   variant="emerald"
                   size="md"
-                  href={getWhatsAppUrl("Olá, Dra. Ana Paula! Gostaria de informações sobre o teste e adaptação de aparelhos auditivos.")}
+                  href={getWhatsAppUrl("Olá, Ana Paula! Gostaria de informações sobre o teste e adaptação de aparelhos auditivos.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   icon={<ArrowRight className="w-4 h-4" />}
@@ -123,7 +123,7 @@ export const PillarsSection: React.FC = () => {
                 <Button
                   variant="primary"
                   size="md"
-                  href={getWhatsAppUrl("Olá, Dra. Ana Paula! Vi que você atende em domicílio e gostaria de saber como funciona a visita para um familiar idoso.")}
+                  href={getWhatsAppUrl("Olá, Ana Paula! Vi que você atende em domicílio e gostaria de saber como funciona a visita para um familiar idoso.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   icon={<ArrowRight className="w-4 h-4" />}

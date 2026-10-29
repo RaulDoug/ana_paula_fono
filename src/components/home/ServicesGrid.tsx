@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Baby, Smile, Mic, ArrowRight, Check } from 'lucide-react';
+import { Baby, Smile, Brain, ArrowRight, Check } from 'lucide-react';
 import { SectionHeading } from '../shared/SectionHeading';
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
@@ -14,8 +14,8 @@ export const ServicesGrid: React.FC = () => {
         return <Baby className="w-6 h-6 text-[#0A3E39]" />;
       case 'Smile':
         return <Smile className="w-6 h-6 text-[#0A3E39]" />;
-      case 'Mic':
-        return <Mic className="w-6 h-6 text-[#0A3E39]" />;
+      case 'Brain':
+        return <Brain className="w-6 h-6 text-[#0A3E39]" />;
       default:
         return <Smile className="w-6 h-6 text-[#0A3E39]" />;
     }

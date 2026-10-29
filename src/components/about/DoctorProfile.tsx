@@ -55,12 +55,12 @@ export const DoctorProfile: React.FC = () => {
           </Badge>
 
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#0A3E39] leading-tight">
-            Dra. Ana Paula Azevedo — Fonoaudióloga
+            Ana Paula Azevedo — Fonoaudióloga
           </h2>
 
           <div className="space-y-4 text-sm sm:text-base text-[#596567] leading-relaxed">
             <p>
-              A <strong>Dra. Ana Paula Azevedo</strong> dedica sua prática profissional ao resgate da comunicação humana, da autoestima auditiva e da segurança alimentar de seus pacientes. Com atuação focada nas áreas de audiologia clínica, aparelhos auditivos e fonoaudiologia hospitalar/geriátrica, combina rigor científico atualizado com escuta compassiva.
+              <strong>Ana Paula Azevedo</strong> dedica sua prática profissional ao resgate da comunicação humana, da autoestima auditiva e da segurança alimentar de seus pacientes. Com atuação focada nas áreas de audiologia clínica, aparelhos auditivos e fonoaudiologia hospitalar/geriátrica, combina rigor científico atualizado com escuta compassiva.
             </p>
             <p>
               Seu compromisso é entregar um atendimento ético e resolutivo, garantindo que cada paciente — da infância à maturidade — receba a atenção e os recursos ideais para viver com autonomia e qualidade de vida.
@@ -85,12 +85,12 @@ export const DoctorProfile: React.FC = () => {
             <Button
               variant="emerald"
               size="md"
-              href={getWhatsAppUrl("Olá, Dra. Ana Paula! Acessei a página 'Sobre' do site e gostaria de agendar uma consulta.")}
+              href={getWhatsAppUrl("Olá, Ana Paula! Acessei a página 'Sobre' do site e gostaria de agendar uma consulta.")}
               target="_blank"
               rel="noopener noreferrer"
               icon={<MessageCircle className="w-4 h-4" />}
             >
-              Falar com a Dra. Ana Paula
+              Falar com Ana Paula
             </Button>
           </div>
         </div>

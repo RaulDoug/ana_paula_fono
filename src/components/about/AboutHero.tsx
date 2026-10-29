@@ -26,7 +26,7 @@ export const AboutHero: React.FC = () => {
           </h1>
 
           <p className="text-base sm:text-lg text-[#596567] leading-relaxed">
-            Conheça nossa proposta de cuidado, nossa estrutura física térrea e acessível no Centro de Bom Despacho (em frente à VDM) e como facilitamos o seu acesso aos tratamentos.
+            Conheça nossa proposta de cuidado, nossa estrutura física acolhedora no Centro de Bom Despacho (em frente à VDM) e nosso compromisso com a sua saúde.
           </p>
         </div>
       </div>

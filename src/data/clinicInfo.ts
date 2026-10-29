@@ -1,7 +1,7 @@
 export const CLINIC_INFO = {
   name: "Azevedo Fonoaudiologia",
   legalName: "Azevedo Fonoaudiologia LTDA",
-  doctorName: "Dra. Ana Paula Azevedo",
+  doctorName: "Ana Paula Azevedo",
   specialty: "Fonoaudióloga Clínica & Reabilitação Auditiva",
   crfa: "CRFa: 6-3588",
   cnpj: "42.489.925/0001-98",
@@ -31,7 +31,7 @@ export const CLINIC_INFO = {
 } as const;
 
 export function getWhatsAppUrl(message?: string): string {
-  const defaultMsg = "Olá, Dra. Ana Paula! Acessei seu site e gostaria de agendar uma avaliação fonoaudiológica.";
+  const defaultMsg = "Olá, Ana Paula! Acessei seu site e gostaria de agendar uma avaliação fonoaudiológica.";
   const text = encodeURIComponent(message || defaultMsg);
   return `https://wa.me/${CLINIC_INFO.phoneRaw}?text=${text}`;
 }

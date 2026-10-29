@@ -65,7 +65,7 @@ export const WhatsAppDock: React.FC = () => {
             {/* Card Footer Action */}
             <div className="p-3 bg-white border-t border-[#E2DDD5]/60">
               <a
-                href={getWhatsAppUrl("Olá, Dra. Ana Paula! Acessei seu site e gostaria de agendar uma consulta.")}
+                href={getWhatsAppUrl("Olá, Ana Paula! Acessei seu site e gostaria de agendar uma consulta.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-[#10B981] hover:bg-[#059669] text-white font-semibold text-xs py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 shadow-sm transition-colors active:scale-[0.98]"
@@ -88,7 +88,7 @@ export const WhatsAppDock: React.FC = () => {
             className="hidden sm:flex items-center gap-2 bg-white text-[#0A3E39] font-medium text-xs px-3.5 py-2 rounded-full shadow-[0_4px_16px_rgba(10,62,57,0.12)] border border-[#E2DDD5] hover:shadow-md transition-shadow cursor-pointer"
           >
             <span className="w-2 h-2 rounded-full bg-[#10B981] animate-pulse" />
-            <span>Fale com a Dra. Ana Paula</span>
+            <span>Fale com Ana Paula</span>
           </motion.button>
         )}
 

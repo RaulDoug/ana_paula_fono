@@ -98,7 +98,7 @@ export const HomeCareDetail: React.FC = () => {
               <Button
                 variant="primary"
                 size="lg"
-                href={getWhatsAppUrl("Olá, Dra. Ana Paula! Vi que você atende em domicílio e gostaria de saber como funciona a visita para um familiar idoso.")}
+                href={getWhatsAppUrl("Olá, Ana Paula! Vi que você atende em domicílio e gostaria de saber como funciona a visita para um familiar idoso.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 icon={<ArrowRight className="w-4 h-4" />}

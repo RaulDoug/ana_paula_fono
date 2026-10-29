@@ -59,7 +59,7 @@ export const Navbar: React.FC = () => {
                 {CLINIC_INFO.name}
               </span>
               <span className="text-[11px] font-sans uppercase tracking-wider text-[#596567] font-semibold">
-                Dra. Ana Paula Azevedo • {CLINIC_INFO.crfa}
+                {CLINIC_INFO.doctorName} • {CLINIC_INFO.crfa}
               </span>
             </div>
           </Link>
@@ -89,7 +89,7 @@ export const Navbar: React.FC = () => {
             <Button
               variant="emerald"
               size="sm"
-              href={getWhatsAppUrl("Olá, Dra. Ana Paula! Acessei seu site e gostaria de agendar uma consulta.")}
+              href={getWhatsAppUrl("Olá, Ana Paula! Acessei seu site e gostaria de agendar uma consulta.")}
               target="_blank"
               rel="noopener noreferrer"
               icon={<MessageCircle className="w-4 h-4" />}
@@ -140,7 +140,7 @@ export const Navbar: React.FC = () => {
               <Button
                 variant="emerald"
                 size="md"
-                href={getWhatsAppUrl("Olá, Dra. Ana Paula! Acessei seu site e gostaria de agendar uma consulta.")}
+                href={getWhatsAppUrl("Olá, Ana Paula! Acessei seu site e gostaria de agendar uma consulta.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 icon={<MessageCircle className="w-4 h-4" />}

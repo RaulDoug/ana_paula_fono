@@ -1,14 +1,14 @@
 import React from 'react';
-import { Accessibility, Sparkles, Shield, Heart } from 'lucide-react';
+import { MapPin, Sparkles, Shield, Heart } from 'lucide-react';
 import { Card } from '../ui/Card';
 import { Badge } from '../ui/Badge';
 
 export const ClinicStructure: React.FC = () => {
   const pillars = [
     {
-      icon: <Accessibility className="w-6 h-6 text-[#0A3E39]" />,
-      title: "Acessibilidade Integral",
-      desc: "Consultório térreo no Centro, com facilidade total para cadeirantes, idosos e pessoas com dificuldades de locomoção, sem barreiras de escadas na entrada.",
+      icon: <MapPin className="w-6 h-6 text-[#0A3E39]" />,
+      title: "Localização Central",
+      desc: "Consultório situado no coração de Bom Despacho, em frente à VDM, com ponto de referência conhecido e conveniente para sua consulta.",
     },
     {
       icon: <Sparkles className="w-6 h-6 text-[#0A3E39]" />,
@@ -33,7 +33,7 @@ export const ClinicStructure: React.FC = () => {
         <div className="flex flex-col gap-3 text-center items-center mb-12">
           <Badge variant="sage">Infraestrutura em Bom Despacho</Badge>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#0A3E39]">
-            Ambiente Acolhedor, Seguro e Acessível
+            Ambiente Acolhedor, Seguro e Confortável
           </h2>
           <p className="text-sm sm:text-base text-[#596567] max-w-2xl">
             Projetado para receber cada família com o máximo de bem-estar, nosso consultório está localizado no coração de Bom Despacho.

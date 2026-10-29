@@ -20,14 +20,14 @@ export const CTASection: React.FC = () => {
         </h2>
 
         <p className="text-sm sm:text-base text-[#E8F1EE]/90 max-w-xl leading-relaxed">
-          Entre em contato direto com a <strong>Dra. Ana Paula Azevedo</strong> e esclareça suas dúvidas sobre consultas, exames, testes de aparelhos auditivos ou visitas domiciliares em Bom Despacho.
+          Entre em contato direto com <strong>Ana Paula Azevedo</strong> e esclareça suas dúvidas sobre consultas, exames, testes de aparelhos auditivos ou visitas domiciliares em Bom Despacho.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 pt-2 w-full sm:w-auto">
           <Button
             variant="emerald"
             size="lg"
-            href={getWhatsAppUrl("Olá, Dra. Ana Paula! Acessei seu site e gostaria de agendar uma avaliação fonoaudiológica.")}
+            href={getWhatsAppUrl("Olá, Ana Paula! Acessei seu site e gostaria de agendar uma avaliação fonoaudiológica.")}
             target="_blank"
             rel="noopener noreferrer"
             icon={<MessageCircle className="w-5 h-5" />}

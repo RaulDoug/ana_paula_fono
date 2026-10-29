@@ -17,8 +17,8 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
 - **Canonical:** `https://azevedofonoaudiologia.com.br/servicos`
 
 ### Rota `/sobre` (Sobre a Clínica & Contato)
-- **Title:** `Sobre a Dra. Ana Paula Azevedo | Fonoaudiologia no Centro de Bom Despacho`
-- **Meta Description:** `Conheça a Dra. Ana Paula Azevedo, a infraestrutura acessível no Centro de Bom Despacho (em frente à VDM) e solicite sua rota GPS ou atendimento domiciliar.`
+- **Title:** `Sobre Ana Paula Azevedo | Fonoaudiologia no Centro de Bom Despacho`
+- **Meta Description:** `Conheça Ana Paula Azevedo, a infraestrutura do consultório no Centro de Bom Despacho (em frente à VDM) e solicite sua rota GPS ou atendimento domiciliar.`
 - **Canonical:** `https://azevedofonoaudiologia.com.br/sobre`
 
 ---
@@ -32,19 +32,19 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
   - `Serviços` (aponta para `/servicos`)
   - `Sobre & Contato` (aponta para `/sobre`)
 - **Botão CTA Navbar:** `Agendar Consulta`  
-  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Dra.%20Ana%20Paula!%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20fonoaudiol%C3%B3gica.`
+  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Ana%20Paula!%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20fonoaudiol%C3%B3gica.`
 
 ---
 
 ### Hero Section
 - **Badge de Destaque:** `Atendimento Clínico & Domiciliar • Bom Despacho - MG`
 - **H1 (Título Principal):** `Fonoaudiologia especializada e reabilitação auditiva com acolhimento e precisão técnica.`
-- **Subtítulo:** `Consultório completo e acessível no Centro de Bom Despacho, além de atendimento fonoaudiológico domiciliar exclusivo para idosos no conforto do seu lar.`
+- **Subtítulo:** `Consultório completo e acolhedor no Centro de Bom Despacho, além de atendimento fonoaudiológico domiciliar exclusivo para idosos no conforto do seu lar.`
 - **CTA Primário (Botão em Destaque):** `Agendar Consulta no WhatsApp`  
-  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Dra.%20Ana%20Paula!%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20fonoaudiol%C3%B3gica.`
+  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Ana%20Paula!%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20fonoaudiol%C3%B3gica.`
 - **CTA Secundário (Botão Outline):** `Conhecer Nossos Serviços`  
   *Ação:* Scroll suave até `#servicos-resumo` ou redirecionamento para `/servicos`.
-- **Badge de Autoridade (Rodapé do Hero):** `Dra. Ana Paula Azevedo • Práticas Clínicas Baseadas em Evidências • CRFa Ativo`
+- **Badge de Autoridade (Rodapé do Hero):** `Ana Paula Azevedo • Práticas Clínicas Baseadas em Evidências • CRFa Ativo`
 
 ---
 
@@ -59,7 +59,7 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
   - `Modelos recarregáveis e quase imperceptíveis`
   - `Calibragem personalizada conforme a audiometria`
 - **Botão:** `Saiba mais sobre os aparelhos →`  
-  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Dra.%20Ana%20Paula!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20teste%20e%20adapta%C3%A7%C3%A3o%20de%20aparelhos%20auditivos.`
+  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Ana%20Paula!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20teste%20e%20adapta%C3%A7%C3%A3o%20de%20aparelhos%20auditivos.`
 
 #### Card 2: Home Care para Idosos
 - **Tag:** `Atendimento Domiciliar`
@@ -70,7 +70,7 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
   - `Reabilitação pós-AVC e condições neurológicas`
   - `Treinamento e suporte direto para cuidadores e familiares`
 - **Botão:** `Solicitar visita domiciliar →`  
-  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Dra.%20Ana%20Paula!%20Vi%20que%20voc%C3%AA%20atende%20em%20domic%C3%ADlio%20e%20gostaria%20de%20saber%20como%20funciona%20a%20visita%20para%20um%20familiar%20idoso.`
+  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Ana%20Paula!%20Vi%20que%20voc%C3%AA%20atende%20em%20domic%C3%ADlio%20e%20gostaria%20de%20saber%20como%20funciona%20a%20visita%20para%20um%20familiar%20idoso.`
 
 ---
 
@@ -88,16 +88,16 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
 
 ### Seção: Apresentação da Profissional (Resumo na Home)
 - **Título (H2):** `Acolhimento humanizado com base científica`
-- **Texto:** `À frente da clínica está a Dra. Ana Paula Azevedo, fonoaudióloga dedicada a transformar o dia a dia de seus pacientes através do cuidado empático e da técnica refinada. Cada plano terapêutico respeita o ritmo, a história e as reais necessidades de quem nos procura, seja no consultório ou no aconchego de sua residência.`
+- **Texto:** `À frente da clínica está Ana Paula Azevedo, fonoaudióloga dedicada a transformar o dia a dia de seus pacientes através do cuidado empático e da técnica refinada. Cada plano terapêutico respeita o ritmo, a história e as reais necessidades de quem nos procura, seja no consultório ou no aconchego de sua residência.`
 - **Botão:** `Conheça a clínica e nossa trajetória →` (aponta para `/sobre`)
 
 ---
 
 ### Seção de Fechamento / Conversão Final (Home)
 - **Título (H2):** `Pronto para cuidar da sua audição e comunicação?`
-- **Texto:** `Entre em contato direto com a Dra. Ana Paula e esclareça suas dúvidas sobre consultas, exames ou visitas domiciliares em Bom Despacho.`
+- **Texto:** `Entre em contato direto com Ana Paula e esclareça suas dúvidas sobre consultas, exames ou visitas domiciliares em Bom Despacho.`
 - **Botão CTA:** `Falar pelo WhatsApp Agora`  
-  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Dra.%20Ana%20Paula!%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20fonoaudiol%C3%B3gica.`
+  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Ana%20Paula!%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20fonoaudiol%C3%B3gica.`
 
 ---
 
@@ -119,7 +119,7 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
   2. `Teste Prático com o Dispositivo:` Experimentação do aparelho ajustado em ambiente real de escuta.
   3. `Adaptação e Acompanhamento:` Retornos periódicos para refinamento dos canais de frequência e garantia de conforto absoluto.
 - **Botão CTA Específico:** `Solicitar teste de aparelho auditivo`  
-  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Dra.%20Ana%20Paula!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20teste%20e%20adapta%C3%A7%C3%A3o%20de%20aparelhos%20auditivos.`
+  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Ana%20Paula!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20teste%20e%20adapta%C3%A7%C3%A3o%20de%20aparelhos%20auditivos.`
 
 ---
 
@@ -133,7 +133,7 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
   - `Dificuldade para engolir medicamentos e cápsulas`
   - `Tempo excessivo para finalizar uma refeição ou perda de peso progressiva`
 - **Botão CTA Específico:** `Agendar visita domiciliar`  
-  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Dra.%20Ana%20Paula!%20Vi%20que%20voc%C3%AA%20atende%20em%20domic%C3%ADlio%20e%20gostaria%20de%20saber%20como%20funciona%20a%20visita%20para%20um%20familiar%20idoso.`
+  *Link:* `https://wa.me/553799439900?text=Ol%C3%A1%2C%20Ana%20Paula!%20Vi%20que%20voc%C3%AA%20atende%20em%20domic%C3%ADlio%20e%20gostaria%20de%20saber%20como%20funciona%20a%20visita%20para%20um%20familiar%20idoso.`
 
 ---
 
@@ -147,9 +147,9 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
 - **Título (H3):** `Motricidade Orofacial e Reeducação Muscular`
 - **Descrição:** `Tratamento voltado para restabelecer o tônus e o equilíbrio muscular de lábios, bochechas e língua. Recomendado para pessoas com padrão de respiração oral, deglutição atípica com interposição lingual e apoio integrado a tratamentos ortodônticos.`
 
-#### Subseção C: Saúde Vocal
-- **Título (H3):** `Aperfeiçoamento Vocal e Reabilitação da Voz`
-- **Descrição:** `Conduta terapêutica para pacientes com queixas de rouquidão persistente, cansaço ao falar ou lesões nas pregas vocais (como nódulos e pólipos), além de aprimoramento técnico para profissionais que usam a voz no trabalho.`
+#### Subseção C: Idosos e Doença de Parkinson
+- **Título (H3):** `Fonoaudiologia para Idosos & Parkinson`
+- **Descrição:** `Reabilitação fonoaudiológica neurológica para idosos e pacientes com Doença de Parkinson ou outras alterações motoras. Atendimento estruturado tanto no consultório no Centro de Bom Despacho quanto em domicílio, focado na voz, na fala e na alimentação segura.`
 
 ---
 
@@ -177,14 +177,14 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
 ### Cabeçalho da Página
 - **Breadcrumb:** `Início > Sobre a Clínica`
 - **Título (H1):** `Azevedo Fonoaudiologia: Ciência, Empatia e Dedicação`
-- **Subtítulo:** `Conheça nossa proposta de cuidado, nossa estrutura física no Centro de Bom Despacho e como facilitamos o seu acesso aos tratamentos.`
+- **Subtítulo:** `Conheça nossa proposta de cuidado, nossa estrutura física no Centro de Bom Despacho e nosso compromisso com a sua saúde.`
 
 ---
 
 ### Seção 1: Perfil da Profissional Responsável
-- **Título (H2):** `Dra. Ana Paula Azevedo — Fonoaudióloga`
+- **Título (H2):** `Ana Paula Azevedo — Fonoaudióloga`
 - **Texto Biográfico:**  
-  `A Dra. Ana Paula Azevedo dedica sua prática profissional ao resgate da comunicação humana, da autoestima auditiva e da segurança alimentar de seus pacientes. Com atuação focada nas áreas de audiologia clínica, aparelhos auditivos e fonoaudiologia hospitalar/geriátrica, combina rigor científico atualizado com escuta compassiva.`  
+  `Ana Paula Azevedo dedica sua prática profissional ao resgate da comunicação humana, da autoestima auditiva e da segurança alimentar de seus pacientes. Com atuação focada nas áreas de audiologia clínica, aparelhos auditivos e fonoaudiologia hospitalar/geriátrica, combina rigor científico atualizado com escuta compassiva.`  
   `Seu compromisso é entregar um atendimento ético e resolutivo, garantindo que cada paciente — da infância à maturidade — receba a atenção e os recursos ideais para viver com autonomia e qualidade.`
 - **Credenciais em Destaque:**
   - `Registro Profissional no Conselho Regional de Fonoaudiologia (CRFa)`
@@ -194,9 +194,9 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
 ---
 
 ### Seção 2: O Consultório e a Estrutura Física
-- **Título (H2):** `Ambiente Acolhedor e Acessível`
+- **Título (H2):** `Ambiente Acolhedor e Confortável`
 - **Texto:**  
-  `Projetado para receber cada família com o máximo de bem-estar, nosso consultório está localizado no coração de Bom Despacho. O espaço é climatizado, privativo e integralmente adaptado para garantir conforto e mobilidade a cadeirantes e pessoas com dificuldades de locomoção.`  
+  `Projetado para receber cada família com o máximo de bem-estar, nosso consultório está localizado no coração de Bom Despacho. O espaço é climatizado, privativo e planejado para garantir conforto durante todas as etapas do atendimento.`  
   `Dispomos de equipamentos para calibração de aparelhos auditivos e arsenal terapêutico para intervenções em fala e deglutição.`
 
 ---
@@ -205,7 +205,7 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
 - **Título (H2):** `Como Chegar ao Nosso Consultório`
 - **Endereço Completo:** `Rua do Rosário, 159, Centro, Bom Despacho - MG, CEP: 35630-000`
 - **Ponto de Referência de Destaque:** `Em frente à VDM`
-- **Descrição de Acesso:** `Localização central de fácil acesso, com facilidade para embarque e desembarque seguro de pacientes bem em frente à entrada.`
+- **Descrição de Acesso:** `Localizado no coração de Bom Despacho, com ponto de referência conhecido em frente à VDM para sua comodidade.`
 - **Botão Deep-Link GPS:** `Traçar Rota no Google Maps`  
   *Link:* `https://www.google.com/maps/dir/?api=1&destination=Rua+do+Rosario,+159,+Centro,+Bom+Despacho+-+MG`
 - **Horário de Atendimento:** `Segunda a Sexta-feira: 08:00 às 18:00 (Atendimentos clínicos e visitas domiciliares com agendamento prévio)`
@@ -224,7 +224,7 @@ Este arquivo reúne todas as cópias, títulos, chamadas para ação (CTAs), mic
 - **Nome da Clínica:** `Azevedo Fonoaudiologia`
 - **Razão Social:** `Azevedo Fonoaudiologia LTDA`
 - **CNPJ:** `42.489.925/0001-98`
-- **Responsável Técnica:** `Dra. Ana Paula Azevedo — Fonoaudióloga`
+- **Responsável Técnica:** `Ana Paula Azevedo — Fonoaudióloga`
 - **Endereço:** `Rua do Rosário, 159, Centro — Bom Despacho - MG (Em frente à VDM)`
 - **WhatsApp:** `(37) 9943-9900`
 - **E-mail Oficial:** `fonoanapaulabd@gmail.com`

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Ear, Bluetooth, BatteryCharging, CheckCircle2, ArrowRight } from 'lucide-react';
+import { Ear, Bluetooth, BatteryCharging, CheckCircle2, ArrowRight, ExternalLink, Sparkles } from 'lucide-react';
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
@@ -34,16 +34,39 @@ export const HearingAidsDetail: React.FC = () => {
           </Badge>
 
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#0A3E39] leading-tight">
-            Reabilitação Auditiva e Tecnologia para Ouvir Bem
+            Venda e Adaptação de Aparelhos Auditivos
           </h2>
 
-          <div className="space-y-4 text-sm sm:text-base text-[#596567] leading-relaxed">
-            <p>
-              A perda auditiva gradual afeta não apenas a audição, mas também a participação nas conversas em família, o convívio social e a saúde cognitiva. Na <strong>Azevedo Fonoaudiologia</strong>, o processo de indicação de próteses é feito com paciência, testes práticos e calibragem digital exata para o seu grau de necessidade.
+          <div className="space-y-3 text-sm sm:text-base text-[#596567] leading-relaxed">
+            <p className="font-semibold text-base sm:text-lg text-[#0A3E39]">
+              Recupere a qualidade da sua audição com soluções auditivas personalizadas.
             </p>
             <p>
-              Trabalhamos com dispositivos modernos e ergonômicos dotados de redução ativa de ruído de fundo, clareza vocal e conexão direta com a televisão e celular via Bluetooth.
+              Dispositivos modernos com processamento sonoro avançado, redução de ruídos e conectividade Bluetooth, proporcionando mais conforto, clareza na percepção dos sons e melhor compreensão da fala.
             </p>
+          </div>
+
+          <div className="p-4 rounded-xl bg-[#E8F1EE]/70 border border-[#0A3E39]/15 flex flex-col gap-2">
+            <div className="flex items-center gap-1.5 text-xs font-bold tracking-wide uppercase text-[#0A3E39]">
+              <span>Em parceria com a</span>
+              <a
+                href="https://www.ouvircommavi.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#165E57] hover:text-[#0A3E39] underline decoration-[#10B981] decoration-2 underline-offset-2 inline-flex items-center gap-1 transition-colors"
+              >
+                MAVÍ
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            </div>
+            <p className="text-xs sm:text-sm text-[#596567] leading-relaxed">
+              Realizamos avaliações, testes e adaptações com tecnologia avançada e acompanhamento fonoaudiológico individualizado, respeitando as necessidades de cada paciente.
+            </p>
+          </div>
+
+          <div className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-[#0A3E39] bg-[#F4F1EA] px-3.5 py-2 rounded-xl border border-[#E2DDD5] w-fit">
+            <Sparkles className="w-4 h-4 text-[#10B981] shrink-0" />
+            <span>Experimente os benefícios da tecnologia no seu dia a dia.</span>
           </div>
 
           {/* Stepper / Timeline */}

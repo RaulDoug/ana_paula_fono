@@ -20,10 +20,10 @@ export const MAIN_PILLARS: ServiceItem[] = [
     title: "Venda e Adaptação de Aparelhos Auditivos",
     tag: "Reabilitação Auditiva",
     badge: "Tecnologia Digital & Conectividade",
-    summary: "Recupere a nitidez das conversas e os sons da vida diária com tecnologia de ponta, testes no conforto de casa e calibragem computadorizada personalizada.",
+    summary: "Recupere a qualidade da sua audição com soluções auditivas personalizadas. Em parceria com a MAVÍ, oferecemos dispositivos modernos com redução de ruídos e conectividade Bluetooth.",
     description: [
-      "A perda auditiva gradual afeta não apenas a audição, mas também a participação nas conversas em família, o convívio social e a saúde cognitiva. Na Azevedo Fonoaudiologia, o processo de indicação de próteses é feito com paciência, testes práticos e calibragem digital exata para o seu grau de necessidade.",
-      "Trabalhamos com dispositivos modernos e ergonômicos dotados de redução ativa de ruído de fundo, clareza vocal e conexão direta com a televisão e celular via Bluetooth."
+      "Dispositivos modernos com processamento sonoro avançado, redução de ruídos e conectividade Bluetooth, proporcionando mais conforto, clareza na percepção dos sons e melhor compreensão da fala.",
+      "Em parceria com a MAVÍ, realizamos avaliações, testes e adaptações com tecnologia avançada e acompanhamento fonoaudiológico individualizado, respeitando as necessidades de cada paciente."
     ],
     features: [
       "Testagem prática antes da escolha final no conforto de sua rotina",

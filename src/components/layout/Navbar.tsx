@@ -65,7 +65,7 @@ export const Navbar: React.FC = () => {
           </Link>
 
           {/* Desktop navigation links */}
-          <div className="hidden md:flex items-center gap-1 bg-[#F4F1EA]/80 p-1.5 rounded-full border border-[#E2DDD5]/80">
+          <div className="hidden md:flex items-center gap-1 bg-[#F4F1EA]/80 p-1.5 rounded-full border border-[#E2DDD5]/80 h-[50px]">
             {navLinks.map((link) => {
               const active = isActive(link.path);
               return (
@@ -85,14 +85,14 @@ export const Navbar: React.FC = () => {
           </div>
 
           {/* Desktop Right CTA */}
-          <div className="hidden sm:flex items-center gap-3">
+          <div className="hidden sm:flex items-center">
             <Button
               variant="emerald"
-              size="sm"
               href={getWhatsAppUrl("Olá, Ana Paula! Acessei seu site e gostaria de agendar uma consulta.")}
               target="_blank"
               rel="noopener noreferrer"
               icon={<MessageCircle className="w-4 h-4" />}
+              className="h-[50px] px-6 text-sm font-semibold justify-center text-center"
             >
               Agendar no WhatsApp
             </Button>

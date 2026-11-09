@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Award, HeartHandshake, ArrowRight, MapPin } from 'lucide-react';
-import { CLINIC_INFO, getWhatsAppUrl } from '../../data/clinicInfo';
-import { Button } from '../ui/Button';
+import { CLINIC_INFO } from '../../data/clinicInfo';
 import { Badge } from '../ui/Badge';
 
 export const BioPreview: React.FC = () => {
@@ -76,22 +75,14 @@ export const BioPreview: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex flex-wrap items-center gap-4 pt-2">
-                <Link to="/sobre">
-                  <Button variant="outline" size="md" icon={<ArrowRight className="w-4 h-4" />} iconPosition="right">
-                    Conhecer biografia e estrutura da clínica
-                  </Button>
-                </Link>
-
-                <Button
-                  variant="emerald"
-                  size="md"
-                  href={getWhatsAppUrl("Olá, Ana Paula! Gostaria de conversar sobre um atendimento fonoaudiológico.")}
-                  target="_blank"
-                  rel="noopener noreferrer"
+              <div className="pt-2">
+                <Link
+                  to="/sobre"
+                  className="group inline-flex items-center gap-2.5 text-sm sm:text-base font-semibold text-[#1F292B] hover:text-[#0A3E39] transition-colors duration-200 cursor-pointer"
                 >
-                  Falar no WhatsApp
-                </Button>
+                  <span>Conhecer biografia e estrutura da clínica</span>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-200" />
+                </Link>
               </div>
             </div>
           </div>

@@ -35,10 +35,11 @@ export const FAQSection: React.FC = () => {
 
         <Button
           variant="primary"
-          size="sm"
+          size="md"
           href={getWhatsAppUrl("Olá! Gostaria de tirar uma dúvida sobre os serviços da clínica.")}
           target="_blank"
           rel="noopener noreferrer"
+          className="px-6 py-3 text-sm font-semibold shrink-0 shadow-sm"
         >
           Tirar Dúvida no WhatsApp
         </Button>

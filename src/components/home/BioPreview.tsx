@@ -18,7 +18,7 @@ export const BioPreview: React.FC = () => {
                     <source srcSet="/images/foto_ana_paula.webp" type="image/webp" />
                     <img
                       src="/images/foto_ana_paula.jpg"
-                      alt={CLINIC_INFO.doctorName}
+                      alt={`${CLINIC_INFO.doctorName}, fonoaudióloga (${CLINIC_INFO.crfa})`}
                       width={800}
                       height={1000}
                       loading="lazy"

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Clock, ArrowUpRight, ShieldCheck } from 'lucide-react';
 import { CLINIC_INFO, getWhatsAppUrl } from '../../data/clinicInfo';
+import { BrandMark } from '../shared/BrandMark';
 
 export const Footer: React.FC = () => {
   return (
@@ -11,9 +12,7 @@ export const Footer: React.FC = () => {
           {/* Column 1: Brand & Professional data */}
           <div className="md:col-span-5 flex flex-col gap-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-white text-[#0A3E39] flex items-center justify-center font-serif text-xl font-bold shadow-sm">
-                A
-              </div>
+              <BrandMark variant="light" className="w-10 h-10 rounded-xl shadow-sm" />
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-bold text-white tracking-tight">
                   {CLINIC_INFO.name}

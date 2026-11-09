@@ -25,7 +25,7 @@ export const DoctorProfile: React.FC = () => {
                 <source srcSet="/images/foto_ana_paula.webp" type="image/webp" />
                 <img
                   src="/images/foto_ana_paula.jpg"
-                  alt={CLINIC_INFO.doctorName}
+                  alt={`Fonoaudióloga ${CLINIC_INFO.doctorName} no consultório em Bom Despacho`}
                   width={800}
                   height={1000}
                   loading="lazy"
@@ -35,9 +35,9 @@ export const DoctorProfile: React.FC = () => {
               </picture>
               <div className="p-4 bg-white border-t border-[#E2DDD5]/70 flex items-center justify-between">
                 <div>
-                  <h3 className="font-serif text-lg font-bold text-[#0A3E39]">
+                  <p className="font-serif text-lg font-bold text-[#0A3E39]">
                     {CLINIC_INFO.doctorName}
-                  </h3>
+                  </p>
                   <span className="text-xs text-[#596567]">
                     {CLINIC_INFO.crfa} • Responsável Técnica
                   </span>

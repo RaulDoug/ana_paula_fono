@@ -5,8 +5,9 @@ export const CLINIC_INFO = {
   specialty: "Fonoaudióloga Clínica & Reabilitação Auditiva",
   crfa: "CRFa: 6-3588",
   cnpj: "42.489.925/0001-98",
-  phoneDisplay: "(37) 9943-9900",
-  phoneRaw: "553799439900",
+  phoneDisplay: "(37) 99943-9900",
+  phoneRaw: "5537999439900",
+  phoneSchema: "+55-37-99943-9900",
   email: "fonoanapaulabd@gmail.com",
   address: {
     street: "Rua do Rosário, 159, Centro",

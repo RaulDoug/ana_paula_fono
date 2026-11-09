@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { MapPin, Clock, Phone, Menu, X, MessageCircle } from 'lucide-react';
 import { CLINIC_INFO, getWhatsAppUrl } from '../../data/clinicInfo';
 import { Button } from '../ui/Button';
+import { BrandMark } from '../shared/BrandMark';
 
 export const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -51,9 +52,7 @@ export const Navbar: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
           {/* Logo brand */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-[#0A3E39] text-[#E8F1EE] flex items-center justify-center font-serif text-xl font-bold shadow-sm group-hover:bg-[#165E57] transition-colors">
-              A
-            </div>
+            <BrandMark className="w-10 h-10 rounded-xl shadow-sm transition-opacity group-hover:opacity-90" />
             <div className="flex flex-col">
               <span className="font-serif text-lg sm:text-xl font-bold text-[#0A3E39] tracking-tight group-hover:text-[#165E57] transition-colors">
                 {CLINIC_INFO.name}

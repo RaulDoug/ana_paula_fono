@@ -28,11 +28,11 @@ export const HeroSection: React.FC = () => {
 
             {/* H1 Main Headline */}
             <h1 className="font-serif text-3xl sm:text-5xl lg:text-[52px] leading-[1.12] text-[#0A3E39] font-bold tracking-tight">
-              Fonoaudiologia especializada e{' '}
+              Fonoaudióloga em Bom Despacho:{' '}
               <span className="italic font-normal text-[#165E57] underline decoration-[#10B981]/50 underline-offset-8">
                 aparelhos auditivos
               </span>{' '}
-              com precisão técnica e acolhimento.
+              e fonoaudiologia com precisão e acolhimento.
             </h1>
 
             {/* Subtitle */}
@@ -95,7 +95,7 @@ export const HeroSection: React.FC = () => {
                     <source srcSet="/images/foto_ana_paula.webp" type="image/webp" />
                     <img
                       src="/images/foto_ana_paula.jpg"
-                      alt={`${CLINIC_INFO.doctorName} - Fonoaudióloga`}
+                      alt={`${CLINIC_INFO.doctorName}, fonoaudióloga em Bom Despacho - MG`}
                       width={800}
                       height={1000}
                       fetchPriority="high"
@@ -110,9 +110,9 @@ export const HeroSection: React.FC = () => {
                   {/* Floating card caption */}
                   <div className="absolute bottom-3 left-3 right-3 bg-white/95 backdrop-blur-md p-3.5 rounded-xl border border-white/60 shadow-md flex items-center justify-between">
                     <div>
-                      <h3 className="font-serif text-sm sm:text-base font-bold text-[#0A3E39] leading-tight">
+                      <p className="font-serif text-sm sm:text-base font-bold text-[#0A3E39] leading-tight">
                         {CLINIC_INFO.doctorName}
-                      </h3>
+                      </p>
                       <p className="text-xs text-[#596567] font-medium">
                         {CLINIC_INFO.crfa} • Bom Despacho - MG
                       </p>

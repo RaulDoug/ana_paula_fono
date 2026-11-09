@@ -24,7 +24,7 @@ export const WhatsAppDock: React.FC = () => {
                 <div className="relative">
                   <img
                     src="/images/foto_ana_paula_thumb.webp"
-                    alt={CLINIC_INFO.doctorName}
+                    alt={`Foto de ${CLINIC_INFO.doctorName}`}
                     width={44}
                     height={44}
                     loading="lazy"

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 
 export interface AccordionItemData {
@@ -37,6 +37,7 @@ export const Accordion: React.FC<AccordionProps> = ({
     <div className="flex flex-col gap-3 w-full">
       {items.map((item, index) => {
         const isOpen = openIndices.includes(index);
+        const panelId = `accordion-panel-${item.id || index}`;
         return (
           <div
             key={item.id || index}
@@ -51,6 +52,7 @@ export const Accordion: React.FC<AccordionProps> = ({
               onClick={() => toggleIndex(index)}
               className="w-full text-left px-5 py-4.5 flex items-center justify-between gap-4 select-none focus:outline-none"
               aria-expanded={isOpen}
+              aria-controls={panelId}
             >
               <span className="font-semibold text-base text-[#0A3E39] pr-2">
                 {item.question}
@@ -66,39 +68,22 @@ export const Accordion: React.FC<AccordionProps> = ({
               </motion.div>
             </button>
 
-            <AnimatePresence initial={false}>
-              {isOpen && (
-                <motion.div
-                  key="content"
-                  initial={{ height: 0, opacity: 0 }}
-                  animate={{
-                    height: 'auto',
-                    opacity: 1,
-                    transition: {
-                      height: { duration: 0.3, ease: [0.16, 1, 0.3, 1] },
-                      opacity: { duration: 0.25, delay: 0.05 },
-                    },
-                  }}
-                  exit={{
-                    height: 0,
-                    opacity: 0,
-                    transition: {
-                      height: { duration: 0.2, ease: [0.16, 1, 0.3, 1] },
-                      opacity: { duration: 0.15 },
-                    },
-                  }}
-                  className="overflow-hidden"
-                >
-                  <div className="px-5 pb-5 pt-1 text-sm md:text-[15px] text-[#596567] leading-relaxed border-t border-[#E2DDD5]/40 mt-1">
-                    {item.answer}
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
+            <div
+              id={panelId}
+              aria-hidden={!isOpen}
+              className={`grid transition-[grid-template-rows,opacity] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
+              }`}
+            >
+              <div className="overflow-hidden">
+                <div className="px-5 pb-5 pt-1 text-sm md:text-[15px] text-[#596567] leading-relaxed border-t border-[#E2DDD5]/40 mt-1">
+                  {item.answer}
+                </div>
+              </div>
+            </div>
           </div>
         );
       })}
     </div>
   );
 };
-

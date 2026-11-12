@@ -30,14 +30,14 @@ export const HeroSection: React.FC = () => {
             <h1 className="font-serif text-3xl sm:text-5xl lg:text-[52px] leading-[1.12] text-[#0A3E39] font-bold tracking-tight">
               Fonoaudióloga em Bom Despacho:{' '}
               <span className="italic font-normal text-[#165E57] underline decoration-[#10B981]/50 underline-offset-8">
-                aparelhos auditivos
+                Aparelhos Auditivos
               </span>{' '}
-              e fonoaudiologia com precisão e acolhimento.
+              e Fonoaudiologia com Precisão e Acolhimento
             </h1>
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-[#596567] leading-relaxed max-w-xl">
-              Consultório completo e acolhedor no Centro de Bom Despacho, além de atendimento fonoaudiológico domiciliar exclusivo para idosos no conforto do seu lar.
+              Atendimento especializado com a fonoaudióloga <strong>Ana Paula Azevedo Ferreira ({CLINIC_INFO.crfa})</strong> em consultório completo e acolhedor no Centro de Bom Despacho, além de fonoaudiologia domiciliar exclusiva para idosos no conforto do seu lar.
             </p>
 
             {/* CTAs */}

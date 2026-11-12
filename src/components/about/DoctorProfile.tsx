@@ -55,12 +55,12 @@ export const DoctorProfile: React.FC = () => {
           </Badge>
 
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#0A3E39] leading-tight">
-            Ana Paula Azevedo — Fonoaudióloga
+            Ana Paula Azevedo Ferreira — Fonoaudióloga em Bom Despacho
           </h2>
 
           <div className="space-y-4 text-sm sm:text-base text-[#596567] leading-relaxed">
             <p>
-              <strong>Ana Paula Azevedo</strong> dedica sua prática profissional ao resgate da comunicação humana, da autoestima auditiva e da segurança alimentar de seus pacientes. Com atuação focada nas áreas de audiologia clínica, aparelhos auditivos e fonoaudiologia hospitalar/geriátrica, combina rigor científico atualizado com escuta compassiva.
+              <strong>Ana Paula Azevedo Ferreira (CRFa 6-3588)</strong> dedica sua prática profissional ao resgate da comunicação humana, da autoestima auditiva e da segurança alimentar de seus pacientes em Bom Despacho - MG. Com atuação focada nas áreas de audiologia clínica, aparelhos auditivos e fonoaudiologia hospitalar/geriátrica, combina rigor científico atualizado com escuta compassiva.
             </p>
             <p>
               Seu compromisso é entregar um atendimento ético e resolutivo, garantindo que cada paciente — da infância à maturidade — receba a atenção e os recursos ideais para viver com autonomia e qualidade de vida.

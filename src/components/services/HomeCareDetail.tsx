@@ -65,15 +65,18 @@ export const HomeCareDetail: React.FC = () => {
             </Badge>
 
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#0A3E39] leading-tight">
-              Atendimento Geriátrico e Tratamento de Disfagia em Domicílio
+              Atendimento Geriátrico e Tratamento de Disfagia em Domicílio (Home Care) em Bom Despacho
             </h2>
 
             <div className="space-y-4 text-sm sm:text-base text-[#596567] leading-relaxed">
               <p>
-                A deglutição segura é fundamental para a manutenção da vida e da dignidade na terceira idade. Condições associadas ao envelhecimento, sequelas de Acidente Vascular Cerebral (AVC) ou distúrbios neurodegenerativos (Doença de Parkinson, Alzheimer) com frequência causam <strong>disfagia</strong> — a perda da capacidade de engolir alimentos, líquidos e até saliva com proteção pulmonar adequada.
+                A deglutição segura e a nutrição adequada são pilares essenciais para a qualidade de vida e a longevidade dos idosos. Em casos de pós-AVC, Doença de Parkinson, síndromes demenciais ou perda muscular natural, a <strong>disfagia</strong> pode levar a tosses constantes, engasgos silenciosos e risco iminente de pneumonia aspirativa.
               </p>
               <p>
-                O atendimento domiciliar em Bom Despacho proporciona avaliação precisa sem o estresse ou cansaço de deslocamento para o idoso e seus familiares. Analisamos a postura na refeição, adequamos a consistência dos alimentos e orientamos cuidadores e familiares sobre medidas protetivas contra broncoaspirações.
+                A fonoaudióloga Ana Paula Azevedo Ferreira oferece atendimento fonoaudiológico domiciliar (Home Care) em toda a área urbana de Bom Despacho - MG, avaliando o momento real das refeições no próprio ambiente do paciente. Para idosos com autonomia de deslocamento, os atendimentos e exames funcionais também são realizados em nosso consultório privativo no Centro, na Rua do Rosário, 159.
+              </p>
+              <p>
+                Cada plano de intervenção engloba adequação das consistências alimentares (com uso criterioso de espessantes quando necessário), manobras posturais protetivas, exercícios de fortalecimento laríngeo e capacitação direta dos cuidadores e familiares.
               </p>
             </div>
 

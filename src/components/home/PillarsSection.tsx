@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Ear, Home, CheckCircle2, ArrowRight, ExternalLink, Sparkles } from 'lucide-react';
 import { SectionHeading } from '../shared/SectionHeading';
 import { Card } from '../ui/Card';
@@ -131,7 +132,7 @@ export const PillarsSection: React.FC = () => {
                 </div>
               </div>
 
-              <div className="pt-2 w-full">
+              <div className="pt-2 w-full flex flex-col gap-2.5">
                 <Button
                   variant="emerald"
                   size="md"
@@ -144,6 +145,13 @@ export const PillarsSection: React.FC = () => {
                 >
                   Saiba mais sobre os aparelhos
                 </Button>
+                <Link
+                  to="/servicos#aparelhos-auditivos"
+                  className="text-xs sm:text-sm font-semibold text-[#165E57] hover:text-[#0A3E39] hover:underline flex items-center justify-center gap-1.5 py-1 text-center"
+                >
+                  <span>Ver detalhes sobre Aparelhos Auditivos em Bom Despacho</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
               </div>
             </div>
           </div>
@@ -178,7 +186,7 @@ export const PillarsSection: React.FC = () => {
                 </div>
               </div>
 
-              <div className="pt-4 w-full">
+              <div className="pt-4 w-full flex flex-col gap-2.5">
                 <Button
                   variant="primary"
                   size="md"
@@ -191,6 +199,13 @@ export const PillarsSection: React.FC = () => {
                 >
                   Solicitar visita domiciliar
                 </Button>
+                <Link
+                  to="/servicos#home-care"
+                  className="text-xs sm:text-sm font-semibold text-[#165E57] hover:text-[#0A3E39] hover:underline flex items-center justify-center gap-1.5 py-1 text-center"
+                >
+                  <span>Ver detalhes sobre Atendimento Domiciliar e Disfagia em Bom Despacho</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
               </div>
             </div>
 

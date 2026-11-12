@@ -57,6 +57,7 @@ export const Navbar: React.FC = () => {
               <span className="font-serif text-lg sm:text-xl font-bold text-[#0A3E39] tracking-tight group-hover:text-[#165E57] transition-colors">
                 {CLINIC_INFO.name}
               </span>
+              <span className="sr-only">{' | '}</span>
               <span className="text-[11px] font-sans uppercase tracking-wider text-[#596567] font-semibold">
                 {CLINIC_INFO.doctorName} • {CLINIC_INFO.crfa}
               </span>

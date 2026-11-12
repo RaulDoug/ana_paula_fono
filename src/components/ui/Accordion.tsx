@@ -38,6 +38,7 @@ export const Accordion: React.FC<AccordionProps> = ({
       {items.map((item, index) => {
         const isOpen = openIndices.includes(index);
         const panelId = `accordion-panel-${item.id || index}`;
+        const headerId = `accordion-header-${item.id || index}`;
         return (
           <div
             key={item.id || index}
@@ -48,6 +49,7 @@ export const Accordion: React.FC<AccordionProps> = ({
             }`}
           >
             <button
+              id={headerId}
               type="button"
               onClick={() => toggleIndex(index)}
               className="w-full text-left px-5 py-4.5 flex items-center justify-between gap-4 select-none focus:outline-none"
@@ -70,7 +72,8 @@ export const Accordion: React.FC<AccordionProps> = ({
 
             <div
               id={panelId}
-              aria-hidden={!isOpen}
+              role="region"
+              aria-labelledby={headerId}
               className={`grid transition-[grid-template-rows,opacity] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${
                 isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
               }`}

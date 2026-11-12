@@ -17,6 +17,7 @@ export const Footer: React.FC = () => {
                 <span className="font-serif text-xl font-bold text-white tracking-tight">
                   {CLINIC_INFO.name}
                 </span>
+                <span className="sr-only">{' | '}</span>
                 <span className="text-xs uppercase tracking-wider text-[#10B981] font-semibold">
                   {CLINIC_INFO.doctorName} • {CLINIC_INFO.crfa}
                 </span>
@@ -97,7 +98,10 @@ export const Footer: React.FC = () => {
                     {CLINIC_INFO.address.street}
                     <ArrowUpRight className="w-3.5 h-3.5 text-[#10B981] opacity-70 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
                   </span>
-                  <span className="block text-xs text-[#10B981] font-semibold">{CLINIC_INFO.address.landmark}</span>
+                  <span className="block text-xs text-[#10B981] font-semibold">
+                    {CLINIC_INFO.address.landmark}
+                  </span>
+                  {' '}
                   <span className="text-xs text-[#E8F1EE]/70 group-hover:text-[#E8F1EE]/90 transition-colors">
                     {CLINIC_INFO.address.city} - {CLINIC_INFO.address.state} • CEP {CLINIC_INFO.address.cep}
                   </span>

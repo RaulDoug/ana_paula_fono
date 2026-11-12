@@ -1,7 +1,8 @@
 export const CLINIC_INFO = {
   name: "Azevedo Fonoaudiologia",
   legalName: "Azevedo Fonoaudiologia LTDA",
-  doctorName: "Ana Paula Azevedo",
+  doctorName: "Ana Paula Azevedo Ferreira",
+  doctorShortName: "Ana Paula Azevedo",
   specialty: "Fonoaudióloga Clínica & Reabilitação Auditiva",
   crfa: "CRFa: 6-3588",
   cnpj: "42.489.925/0001-98",

@@ -8,10 +8,11 @@ import { getWhatsAppUrl } from '../../data/clinicInfo';
 export const ClinicalTreatments: React.FC = () => {
   const treatments = [
     {
-      title: "Fonoaudiologia Infantil, Linguagem e Fala",
+      id: "infantil",
+      title: "Fonoaudiologia Infantil e Tratamento do Atraso de Fala em Bom Despacho",
       badge: "Infantil & Escolar",
       icon: <Baby className="w-6 h-6 text-[#0A3E39]" />,
-      desc: "Acompanhamento e intervenção precoce em crianças com atraso na aquisição da fala, trocas fonológicas na pronúncia, dificuldades de compreensão e gagueira. Conduzida por meio de abordagens lúdicas e engajadoras que estimulam a expressão natural e a autoconfiança da criança.",
+      desc: "Avaliação diagnóstica e intervenção precoce conduzidas no consultório no Centro de Bom Despacho. Atendemos crianças com atraso no desenvolvimento da fala, trocas fonológicas na alfabetização, dificuldades de linguagem expressiva e gagueira infantil. As sessões utilizam recursos lúdicos e envolventes, estimulando a autoconfiança da criança e fornecendo orientações práticas contínuas para pais e educadores.",
       benefits: [
         "Estimulação precoce para crianças a partir de 18 meses",
         "Correção de trocas de letras e fonemas na fala",
@@ -21,10 +22,11 @@ export const ClinicalTreatments: React.FC = () => {
       ctaMessage: "Olá, Ana Paula! Gostaria de agendar uma avaliação infantil para meu filho(a).",
     },
     {
-      title: "Motricidade Orofacial e Reeducação Muscular",
+      id: "motricidade",
+      title: "Motricidade Orofacial e Reeducação Muscular da Face no Consultório",
       badge: "Musculatura da Face",
       icon: <Smile className="w-6 h-6 text-[#0A3E39]" />,
-      desc: "Tratamento voltado para restabelecer o tônus e o equilíbrio muscular de lábios, bochechas e língua. Recomendado para pessoas com padrão de respiração oral, deglutição atípica com interposição lingual e apoio integrado a tratamentos ortodônticos.",
+      desc: "Tratamento clínico presencial na Rua do Rosário, 159, planejado para restaurar a harmonia miofuncional de lábios, língua e bochechas. Indicado para quadros de respiração bucal crônica, mastigação unilateral, deglutição atípica com interposição lingual e suporte multidisciplinar integrado a tratamentos ortodônticos e cirúrgicos bucomaxilofaciais em Bom Despacho.",
       benefits: [
         "Adequação de tônus muscular de lábios, língua e bochechas",
         "Correção da respiração oral crônica (respiração pela boca)",
@@ -34,10 +36,11 @@ export const ClinicalTreatments: React.FC = () => {
       ctaMessage: "Olá, Ana Paula! Gostaria de informações sobre o tratamento de motricidade orofacial.",
     },
     {
-      title: "Fonoaudiologia para Idosos & Parkinson",
+      id: "parkinson-idosos",
+      title: "Reabilitação Fonoaudiológica para Idosos e Doença de Parkinson",
       badge: "Consultório & Domiciliar",
       icon: <Brain className="w-6 h-6 text-[#0A3E39]" />,
-      desc: "Reabilitação fonoaudiológica neurológica para idosos e pacientes com Doença de Parkinson ou outras alterações motoras. Atendimento estruturado tanto no consultório no Centro de Bom Despacho quanto em domicílio, focado na voz, na fala e na alimentação segura.",
+      desc: "Programa terapêutico fonoaudiológico voltado para pacientes com Doença de Parkinson e distúrbios neurológicos do envelhecimento. Realizado tanto em nosso consultório no Centro quanto no conforto do lar (atendimento domiciliar em Bom Despacho), com foco na recuperação da intensidade vocal, clareza articulatória e prevenção rigorosa de engasgos e broncoaspirações durante a alimentação.",
       benefits: [
         "Terapia vocal para aumento da intensidade e clareza da voz",
         "Reeducação da deglutição e prevenção de engasgos e aspiração",
@@ -51,12 +54,12 @@ export const ClinicalTreatments: React.FC = () => {
   return (
     <section className="py-20 max-w-6xl mx-auto px-4 sm:px-6">
       <div className="flex flex-col gap-3 text-center items-center mb-14">
-        <Badge variant="sage">Atendimento em Consultório</Badge>
-        <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#0A3E39]">
-          Especialidades em Consultório no Centro
-        </h2>
+        <Badge variant="sage">Atendimento em Consultório & Domiciliar</Badge>
+        <p className="font-serif text-3xl sm:text-4xl font-bold text-[#0A3E39]">
+          Especialidades Clínicas em Bom Despacho
+        </p>
         <p className="text-sm sm:text-base text-[#596567] max-w-2xl">
-          Espaço privativo, climatizado e acolhedor na Rua do Rosário, 159 (em frente à VDM), planejado para conforto de toda a família.
+          Espaço privativo, climatizado e acolhedor na Rua do Rosário, 159 (em frente à VDM), além de atendimento domiciliar especializado em toda a área urbana de Bom Despacho - MG.
         </p>
       </div>
 
@@ -71,9 +74,9 @@ export const ClinicalTreatments: React.FC = () => {
                 <Badge variant="outline">{t.badge}</Badge>
               </div>
 
-              <h3 className="font-serif text-xl font-bold text-[#0A3E39]">
+              <h2 id={t.id} className="font-serif text-xl sm:text-2xl font-bold text-[#0A3E39] leading-snug">
                 {t.title}
-              </h3>
+              </h2>
 
               <p className="text-xs sm:text-sm text-[#596567] leading-relaxed">
                 {t.desc}

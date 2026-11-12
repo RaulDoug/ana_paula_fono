@@ -3,7 +3,7 @@ import { FAQ_ITEMS } from './faqData';
 import { SITE_URL, SITE_NAME, PHOTO_URL, LOGO_URL, OG_IMAGE } from './siteConfig';
 
 const WEBSITE_ID = `${SITE_URL}/#website`;
-const CLINIC_ID = `${SITE_URL}/#clinic`;
+const CLINIC_ID = `${SITE_URL}/#organization`;
 const PERSON_ID = `${SITE_URL}/#ana-paula`;
 
 const address = {
@@ -20,15 +20,20 @@ export const websiteSchema = {
   '@id': WEBSITE_ID,
   url: `${SITE_URL}/`,
   name: SITE_NAME,
-  alternateName: ['Azevedo Fono', 'Fono Ana Paula Azevedo'],
+  alternateName: ['Azevedo Fono', 'Fono Ana Paula Azevedo', 'Ana Paula Fonoaudióloga Bom Despacho'],
   inLanguage: 'pt-BR',
   publisher: { '@id': CLINIC_ID },
 };
 
 export const clinicSchema = {
-  '@type': 'MedicalClinic',
+  '@type': 'MedicalBusiness',
   '@id': CLINIC_ID,
-  name: CLINIC_INFO.name,
+  name: 'Ana Paula Azevedo Ferreira Fonoaudióloga - Azevedo Fonoaudiologia',
+  alternateName: [
+    'Azevedo Fonoaudiologia',
+    'Ana Paula Fonoaudióloga Bom Despacho',
+    'Azevedo Fonoaudiologia LTDA',
+  ],
   legalName: CLINIC_INFO.legalName,
   taxID: CLINIC_INFO.cnpj,
   url: `${SITE_URL}/`,
@@ -58,7 +63,7 @@ export const clinicSchema = {
   },
   medicalSpecialty: 'SpeechPathology',
   priceRange: '$$',
-  employee: { '@id': PERSON_ID },
+  founder: { '@id': PERSON_ID },
   sameAs: [CLINIC_INFO.instagram.url],
 };
 
@@ -67,6 +72,7 @@ export const personSchema = {
   '@id': PERSON_ID,
   name: CLINIC_INFO.doctorName,
   jobTitle: 'Fonoaudióloga',
+  identifier: CLINIC_INFO.crfa,
   image: PHOTO_URL,
   worksFor: { '@id': CLINIC_ID },
   hasCredential: {

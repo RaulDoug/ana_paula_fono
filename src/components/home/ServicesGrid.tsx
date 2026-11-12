@@ -58,22 +58,25 @@ export const ServicesGrid: React.FC = () => {
               </div>
             </div>
 
-            <div className="pt-6 border-t border-[#E2DDD5]/60 mt-6 flex items-center justify-between">
-              <a
-                href={getWhatsAppUrl(service.ctaMessage)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs font-semibold text-[#165E57] hover:text-[#0A3E39] hover:underline flex items-center gap-1"
-              >
-                <span>Agendar consulta</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </a>
+            <div className="pt-6 border-t border-[#E2DDD5]/60 mt-6 flex flex-col gap-2.5">
+              <div className="flex items-center justify-between">
+                <a
+                  href={getWhatsAppUrl(service.ctaMessage)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs font-semibold text-[#165E57] hover:text-[#0A3E39] hover:underline flex items-center gap-1"
+                >
+                  <span>Agendar consulta</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </a>
+              </div>
 
               <Link
-                to="/servicos"
-                className="text-xs text-[#596567] hover:text-[#0A3E39] font-medium"
+                to={`/servicos#${service.id}`}
+                className="text-xs text-[#0A3E39] hover:text-[#10B981] font-semibold hover:underline flex items-center gap-1 pt-1.5 border-t border-[#E2DDD5]/40"
               >
-                Ver detalhes →
+                <span>Ver detalhes sobre {service.title} em Bom Despacho</span>
+                <ArrowRight className="w-3.5 h-3.5 shrink-0" />
               </Link>
             </div>
           </Card>

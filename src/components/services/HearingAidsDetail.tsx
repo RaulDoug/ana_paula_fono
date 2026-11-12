@@ -34,15 +34,18 @@ export const HearingAidsDetail: React.FC = () => {
           </Badge>
 
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#0A3E39] leading-tight">
-            Venda e Adaptação de Aparelhos Auditivos
+            Venda e Adaptação de Aparelhos Auditivos Digitais em Bom Despacho
           </h2>
 
           <div className="space-y-3 text-sm sm:text-base text-[#596567] leading-relaxed">
             <p className="font-semibold text-base sm:text-lg text-[#0A3E39]">
-              Recupere a qualidade da sua audição com soluções auditivas personalizadas.
+              Reabilitação auditiva completa, personalizada e acolhedora no Centro de Bom Despacho.
             </p>
             <p>
-              Dispositivos modernos com processamento sonoro avançado, redução de ruídos e conectividade Bluetooth, proporcionando mais conforto, clareza na percepção dos sons e melhor compreensão da fala.
+              No consultório da Azevedo Fonoaudiologia, localizado na Rua do Rosário, 159, Centro (em frente à VDM), conduzimos a seleção e adaptação de próteses auditivas digitais de última geração. Analisamos minuciosamente a sua audiometria recente e o seu estilo de vida para prescrever a tecnologia mais indicada, oferecendo também suporte em domicílio em Bom Despacho para pacientes com dificuldade de locomoção.
+            </p>
+            <p>
+              Nossos aparelhos contam com conectividade Bluetooth direta (iOS e Android), baterias recarregáveis de longa duração, microfones direcionais com inteligência artificial e redução automática de ruídos, devolvendo o prazer de conversar em família e assistir TV com clareza sonora.
             </p>
           </div>
 

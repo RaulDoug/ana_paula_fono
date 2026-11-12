@@ -50,7 +50,7 @@ export const BioPreview: React.FC = () => {
               </h2>
 
               <p className="text-sm sm:text-base text-[#596567] leading-relaxed">
-                À frente da clínica está <strong>Ana Paula Azevedo</strong>, fonoaudióloga dedicada a transformar o dia a dia de seus pacientes através do cuidado empático e da técnica refinada. Cada plano terapêutico respeita o ritmo, a história e as reais necessidades de quem nos procura, seja no consultório no Centro ou no aconchego de sua residência.
+                À frente da clínica está <strong>Ana Paula Azevedo Ferreira (CRFa 6-3588)</strong>, fonoaudióloga em Bom Despacho dedicada a transformar o dia a dia de seus pacientes através do cuidado empático e da técnica refinada. Cada plano terapêutico respeita o ritmo, a história e as reais necessidades de quem nos procura, seja no consultório no Centro ou no aconchego de sua residência.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-2 w-full">

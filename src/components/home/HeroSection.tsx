@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import { ShieldCheck, MessageCircle, ArrowDown, MapPin, Award } from 'lucide-react';
 import { CLINIC_INFO, getWhatsAppUrl } from '../../data/clinicInfo';
 import { Button } from '../ui/Button';
@@ -15,12 +14,7 @@ export const HeroSection: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Copy & Conversions */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="lg:col-span-7 flex flex-col items-start gap-6"
-          >
+          <div className="lg:col-span-7 flex flex-col items-start gap-6">
             {/* Trust Pill */}
             <Badge variant="sage" icon={<ShieldCheck className="w-4 h-4 text-[#10B981]" />}>
               {CLINIC_INFO.doctorName} • {CLINIC_INFO.crfa} • Bom Despacho - MG
@@ -75,15 +69,10 @@ export const HeroSection: React.FC = () => {
                 <span>Práticas Baseadas em Evidências</span>
               </div>
             </div>
-          </motion.div>
+          </div>
 
           {/* Right Column: Authentic Professional Portrait */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-            className="lg:col-span-5 flex justify-center lg:justify-end"
-          >
+          <div className="lg:col-span-5 flex justify-center lg:justify-end">
             <div className="relative w-full max-w-md">
               {/* Organic background frame */}
               <div className="absolute -inset-3 bg-gradient-to-tr from-[#0A3E39]/15 to-[#10B981]/15 rounded-[36px] -rotate-2" />
@@ -128,7 +117,7 @@ export const HeroSection: React.FC = () => {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

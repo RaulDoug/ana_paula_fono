@@ -1,5 +1,6 @@
 export const CLINIC_INFO = {
   name: "Azevedo Fonoaudiologia",
+  gbpName: "Ana Paula Azevedo Ferreira Fonoaudióloga",
   legalName: "Azevedo Fonoaudiologia LTDA",
   doctorName: "Ana Paula Azevedo Ferreira",
   doctorShortName: "Ana Paula Azevedo",
@@ -14,7 +15,7 @@ export const CLINIC_INFO = {
     street: "Rua do Rosário, 159, Centro",
     city: "Bom Despacho",
     state: "MG",
-    cep: "35630-000",
+    cep: "35630-005",
     landmark: "Em frente à VDM",
     full: "Rua do Rosário, 159, Centro (Em frente à VDM), Bom Despacho - MG",
   },

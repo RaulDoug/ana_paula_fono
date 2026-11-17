@@ -43,7 +43,10 @@ const { render, PRERENDER_ROUTES } = await import(
 
 for (const { url, file } of PRERENDER_ROUTES) {
   const { html, head } = render(url);
-  const page = template.replace('<!--app-head-->', head).replace('<!--app-html-->', html);
+  // Use function replacers so sequences like $$ in JSON-LD are not collapsed to $.
+  const page = template
+    .replace('<!--app-head-->', () => head)
+    .replace('<!--app-html-->', () => html);
   fs.writeFileSync(path.join(dist, file), page, 'utf-8');
   console.log(`prerender ${url} -> dist/${file}`);
 }

@@ -24,14 +24,14 @@ const base = [websiteSchema, clinicSchema, personSchema];
 export const ROUTE_SEO = {
   home: {
     path: '/',
-    title: 'Fonoaudióloga em Bom Despacho - MG | Ana Paula Azevedo Ferreira',
-    description: 'Fonoaudióloga Ana Paula Azevedo Ferreira (CRFa 6-3588) no Centro de Bom Despacho - MG. Especialista em aparelhos auditivos, fonoaudiologia infantil, disfagia e atendimento domiciliar. Agende: (37) 99943-9900.',
+    title: 'Ana Paula Azevedo Ferreira Fonoaudióloga | Bom Despacho - MG',
+    description: 'Ana Paula Azevedo Ferreira Fonoaudióloga (CRFa 6-3588) no Centro de Bom Despacho - MG. Aparelhos auditivos, fonoaudiologia infantil, disfagia e home care. (37) 99943-9900.',
     preloadImage: '/images/foto_ana_paula.webp',
     jsonLd: graph(...base, faqSchema(FAQ_ITEMS.slice(0, 5))),
   },
   servicos: {
     path: '/servicos',
-    title: 'Aparelhos Auditivos e Fonoaudiologia em Bom Despacho | Ana Paula Azevedo',
+    title: 'Aparelhos Auditivos e Fonoaudiologia em Bom Despacho | Ana Paula Azevedo Ferreira',
     description: 'Seleção e adaptação de aparelhos auditivos digitais, terapia fonoaudiológica infantil, tratamento de disfagia, voz e motricidade orofacial em Bom Despacho - MG.',
     jsonLd: graph(...base, ...servicesSchema, faqSchema(), breadcrumbSchema('Serviços', '/servicos')),
   },

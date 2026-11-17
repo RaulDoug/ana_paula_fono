@@ -20,7 +20,7 @@ export const websiteSchema = {
   '@id': WEBSITE_ID,
   url: `${SITE_URL}/`,
   name: SITE_NAME,
-  alternateName: ['Azevedo Fono', 'Fono Ana Paula Azevedo', 'Ana Paula Fonoaudióloga Bom Despacho'],
+  alternateName: [CLINIC_INFO.gbpName, 'Ana Paula Fonoaudióloga Bom Despacho'],
   inLanguage: 'pt-BR',
   publisher: { '@id': CLINIC_ID },
 };
@@ -28,11 +28,11 @@ export const websiteSchema = {
 export const clinicSchema = {
   '@type': 'MedicalBusiness',
   '@id': CLINIC_ID,
-  name: 'Ana Paula Azevedo Ferreira Fonoaudióloga - Azevedo Fonoaudiologia',
+  name: CLINIC_INFO.gbpName,
   alternateName: [
-    'Azevedo Fonoaudiologia',
+    CLINIC_INFO.name,
+    CLINIC_INFO.legalName,
     'Ana Paula Fonoaudióloga Bom Despacho',
-    'Azevedo Fonoaudiologia LTDA',
   ],
   legalName: CLINIC_INFO.legalName,
   taxID: CLINIC_INFO.cnpj,
@@ -64,6 +64,20 @@ export const clinicSchema = {
   medicalSpecialty: 'SpeechPathology',
   priceRange: '$$',
   founder: { '@id': PERSON_ID },
+  availableService: [
+    {
+      '@type': 'MedicalTherapy',
+      name: 'Seleção e Adaptação de Aparelhos Auditivos Digitais em Bom Despacho',
+    },
+    {
+      '@type': 'MedicalTherapy',
+      name: 'Fonoaudiologia Infantil e Atraso de Fala',
+    },
+    {
+      '@type': 'MedicalTherapy',
+      name: 'Reabilitação de Disfagia e Atendimento Fonoaudiológico Domiciliar (Home Care)',
+    },
+  ],
   sameAs: [CLINIC_INFO.instagram.url],
 };
 
